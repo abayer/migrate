@@ -5,14 +5,14 @@ go: &go
     - $GOPATH:/go
 go-test:
   <<: *go
-  command: sh -c 'go get -t -v ./... && go test -v ./...'
+  command: sh -c 'go get -mod=mod -t -v ./... && go test -mod=mod -v ./...'
   links:
     - postgres
     - mysql
     - cassandra
 go-build:
   <<: *go
-  command: sh -c 'go get -v && go build -ldflags ''-s'' -o migrater'
+  command: sh -c 'go get -mod=mod -v && go build -mod=mod -ldflags ''-s'' -o migrater'
   environment:
     CGO_ENABLED: 1
 postgres:
