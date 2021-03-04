@@ -1,4 +1,4 @@
-module github.com/codeship/migrate
+module github.com/abayer/migrate
 
 go 1.16
 
