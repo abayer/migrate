@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/codeship/migrate/migrate/direction"
+	"github.com/abayer/migrate/migrate/direction"
 	"go/token"
 	"io/ioutil"
 	"path"

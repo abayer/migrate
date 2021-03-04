@@ -1,6 +1,6 @@
 // Package main is the CLI.
 // You can use the CLI via Terminal.
-// import "github.com/codeship/migrate/migrate" for usage within Go.
+// import "github.com/abayer/migrate/migrate" for usage within Go.
 package main
 
 import (
@@ -11,15 +11,15 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	_ "github.com/codeship/migrate/driver/bash"
-	_ "github.com/codeship/migrate/driver/cassandra"
-	_ "github.com/codeship/migrate/driver/mysql"
-	_ "github.com/codeship/migrate/driver/postgres"
-	_ "github.com/codeship/migrate/driver/sqlite3"
-	"github.com/codeship/migrate/file"
-	"github.com/codeship/migrate/migrate"
-	"github.com/codeship/migrate/migrate/direction"
-	pipep "github.com/codeship/migrate/pipe"
+	_ "github.com/abayer/migrate/driver/bash"
+	_ "github.com/abayer/migrate/driver/cassandra"
+	_ "github.com/abayer/migrate/driver/mysql"
+	_ "github.com/abayer/migrate/driver/postgres"
+	_ "github.com/abayer/migrate/driver/sqlite3"
+	"github.com/abayer/migrate/file"
+	"github.com/abayer/migrate/migrate"
+	"github.com/abayer/migrate/migrate/direction"
+	pipep "github.com/abayer/migrate/pipe"
 )
 
 var url = flag.String("url", os.Getenv("MIGRATE_URL"), "")

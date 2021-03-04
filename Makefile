@@ -1,4 +1,4 @@
-IMAGE=codeship/migrate
+IMAGE=abayer/migrate
 DCR=docker-compose run --rm
 .PHONY: clean test build release docker-build docker-push run
 

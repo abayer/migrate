@@ -5,7 +5,7 @@ import (
 	"fmt"
 	neturl "net/url" // alias to allow `url string` func signature in New
 
-	"github.com/codeship/migrate/file"
+	"github.com/abayer/migrate/file"
 )
 
 // Driver is the interface type that needs to implemented by all drivers.

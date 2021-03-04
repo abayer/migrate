@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/codeship/migrate/driver"
-	"github.com/codeship/migrate/file"
-	"github.com/codeship/migrate/migrate/direction"
-	pipep "github.com/codeship/migrate/pipe"
+	"github.com/abayer/migrate/driver"
+	"github.com/abayer/migrate/file"
+	"github.com/abayer/migrate/migrate/direction"
+	pipep "github.com/abayer/migrate/pipe"
 )
 
 // Up applies all available migrations

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/gocql/gocql"
-	"github.com/codeship/migrate/driver"
-	"github.com/codeship/migrate/file"
-	"github.com/codeship/migrate/migrate/direction"
+	"github.com/abayer/migrate/driver"
+	"github.com/abayer/migrate/file"
+	"github.com/abayer/migrate/migrate/direction"
 )
 
 type Driver struct {

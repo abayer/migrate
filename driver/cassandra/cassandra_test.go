@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/codeship/migrate/file"
-	"github.com/codeship/migrate/migrate/direction"
-	pipep "github.com/codeship/migrate/pipe"
+	"github.com/abayer/migrate/file"
+	"github.com/abayer/migrate/migrate/direction"
+	pipep "github.com/abayer/migrate/pipe"
 	"github.com/gocql/gocql"
 )
 

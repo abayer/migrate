@@ -1,7 +1,7 @@
 package file
 
 import (
-	"github.com/codeship/migrate/migrate/direction"
+	"github.com/abayer/migrate/migrate/direction"
 	"io/ioutil"
 	"os"
 	"path"
